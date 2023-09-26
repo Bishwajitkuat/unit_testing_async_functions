@@ -1,0 +1,18 @@
+[
+  {
+    "model": "Border T-model",
+    "licence": "ABC-1"
+  },
+  {
+    "model": "Nova",
+    "licence": "XYZ-123"
+  },
+  {
+    "model": "Border T-model",
+    "licence": "GTF-10"
+  },
+  {
+    "model": "XCT",
+    "licence": "B-1"
+  }
+]
