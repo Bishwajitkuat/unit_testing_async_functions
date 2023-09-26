@@ -15,7 +15,7 @@
 
 function returns an array of cars that matches the given criterion. If no mathc, returns an empty array.
 
-if parameters are missing, returns all cars in an array,
+if parameters are missing, throw error 'parameter missing'
 
 parameters:
 

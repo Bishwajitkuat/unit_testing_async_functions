@@ -10,8 +10,8 @@ function search(key, value) {
         reject(err);
       } else {
         const cars = JSON.parse(data);
+        const found = [];
         if (key && value) {
-          let found = [];
           for (let car of cars) {
             if (car[key] === value) {
               found.push(car);
@@ -19,7 +19,8 @@ function search(key, value) {
           }
           resolve(found);
         } else {
-          resolve(cars);
+          // resolve(cars);
+          reject("parameter missing");
         }
       }
     });
